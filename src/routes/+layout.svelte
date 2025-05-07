@@ -1,13 +1,15 @@
 <script>
+	import { base } from '$app/paths';
+
 	let { children } = $props();
 </script>
 
 <header>
 	<nav>
-		<a href="/">Home</a>
+		<a href="{base}/">Home</a>
 		<ul>
 			<li>
-				<a href="/blog">Blog</a>
+				<a href="{base}/blog">Blog</a>
 			</li>
 			<li></li>
 		</ul>
