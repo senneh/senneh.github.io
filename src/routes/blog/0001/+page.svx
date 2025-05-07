@@ -1,0 +1,6 @@
+---
+title: Hello blog
+date: '2025-05-07'
+---
+
+**Hello**, _Post one._
