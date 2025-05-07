@@ -9,11 +9,11 @@
 	{#each data.posts as post}
 		<li>
 			<h2>
-				<a href={'/' + post.slug}>
+				<a href={post.slug}>
 					{post.meta.title}
 				</a>
 			</h2>
+			Published {post.meta.date}
 		</li>
-		Published {post.meta.date}
 	{/each}
 </ul>
